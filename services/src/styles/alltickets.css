@@ -1,0 +1,106 @@
+body {
+  background: url('../../public/images/bg2.png') center/cover no-repeat;
+  min-height: 100vh;
+}
+
+.search {
+  width: 15%;
+  outline: blueviolet;
+  background: linear-gradient(
+    83.2deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+}
+
+.search:hover {
+  background: linear-gradient(
+    83.2deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+}
+
+.input {
+  height: 38px;
+  width: 30%;
+}
+
+.form {
+  display: flex;
+  width: 30%;
+  margin-left: 54rem;
+}
+
+.top1 {
+  margin-top: 70px;
+}
+.container2 {
+  padding-left: 6rem;
+}
+
+.container {
+  margin-bottom: 7rem;
+  padding-left: 1rem;
+}
+
+.table {
+  color: white;
+  overflow-x: auto;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-btn {
+  padding: 0px 1px 4px 3px;
+  width: 25px;
+  align-items: center;
+  margin: auto;
+}
+
+.delete-btn {
+  padding: 0px 1px 4px 2px;
+  width: 25px;
+  align-items: center;
+  margin: auto;
+}
+
+.edit {
+  font-size: 17px;
+}
+
+.delete {
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    overflow-x: auto;
+  }
+
+  .input {
+    height: 38px;
+    width: 13%;
+  }
+
+  .form {
+    top: 0;
+    position: sticky;
+    width: 70%;
+    margin-left: 13rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .form {
+    width: 80%;
+    margin-left: 8rem;
+  }
+  .input {
+    width: 99%;
+  }
+}

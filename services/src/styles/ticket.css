@@ -1,0 +1,16 @@
+.ticket > h1 {
+  text-align: center;
+}
+.top {
+  margin-top: 50px;
+}
+
+.ticket > h1::-webkit-scrollbar {
+  display: none;
+}
+
+.ticket {
+  max-width: 500px;
+  padding: 20px;
+  margin: auto;
+}
