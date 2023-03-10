@@ -22,14 +22,12 @@ const HomeScreen = () => {
           <p>with TAYPRO's Best Solar Panel Cleaning Robots</p>
           <button className="btn">
             {' '}
-            <Link to="https://taypro.in/" target="_blank">
-              Learn More
-            </Link>{' '}
+            <Link to="#product">Learn More</Link>{' '}
           </button>
         </div>
       </div>
 
-      <div className="product">
+      <div className="product" id="product">
         {product.map((item, index) => (
           <div key={index} className="card">
             <img src={item.imgsrc} alt={item.heading} />
